@@ -5,3 +5,46 @@
     one more css for each page that will contain the selected used 
     on that page only (the ones not reused in other pages).
 */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  background-color: white;
+  background-image: url(https://wallpaperaccess.com/full/289465.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: rgba(40, 3, 58, 0.922);
+  font-family: "Abril Fatface", cursive;
+  font-size: 80px;
+}
+
+ul .list-item,
+.list-title {
+  list-style: none;
+  padding: 10px;
+  border: 1px solid rgba(128, 128, 128, 0.104);
+  background: white;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+  border: none;
+  width: 100%;
+}
+
+.ocultar {
+  visibility: hidden;
+  margin-left: 5%;
+}
+
+li:hover * {
+  visibility: visible;
+}
